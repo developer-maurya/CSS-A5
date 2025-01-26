@@ -1,0 +1,53 @@
+div{
+    margin-left: 450px;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    /* background-color: blue; */
+    background:linear-gradient(to right,orange,white,green);
+    margin: 20px;
+    transition-duration: 10s;
+}
+.b:hover{
+    width: 490px;
+    /* transition: linear; */
+    transition: 10s;
+   
+}
+.b1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 20px;
+    transition-duration: 10s;
+}
+.b1:hover{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(213, 219, 214);
+    margin: 20px;
+    transition-duration: 10s;
+}
+.b2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 20px;
+    transition-duration: 10s;
+}
+.b2:hover{
+    width: 490px;
+    transition: linear;
+    transition: 10s;
+    background-color: rgb(30, 255, 0);
+}
+a{
+    text-decoration-line: none;
+}
+#ra{
+    margin-top: -20px;
+}
+a{
+    margin-left: -100px;
+}

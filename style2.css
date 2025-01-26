@@ -1,0 +1,221 @@
+.sky{
+    /* width:5000px ; */
+    height: 650px;
+    background: linear-gradient(to right,rgb(212, 54, 6),white,green);
+    background-image: url(./sky.jpg );
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+
+}
+h1{
+    background:linear-gradient(to right,orange,white,green);
+    margin-top: 5px;
+    text-align: center;
+}
+.city{
+background-image: url(./city.png);
+height: 250px;
+width: 10000px;
+margin-top: -550px;
+position: absolute;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-duration: 25s;
+animation-name: city;
+
+}
+@keyframes city{
+
+    100%{
+        transform: translateX(-1050px);
+    }
+
+}
+.road{
+    background-image: url(./road.jpg);
+    width: 20000px;
+    height: 120px;
+    margin-top: -300px;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: car;
+    z-index: 1;
+}
+@keyframes car{
+
+    100%{
+        transform: translateX(-1050px);
+    }
+
+}
+
+.road1{
+    background-image: url(./road.jpg);
+    width: 20000px;
+    height: 155px;
+    margin-top: -180px;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: car2;
+    z-index: 1;
+    
+}
+@keyframes car2{
+
+    100%{
+        transform: translateX(350px);
+    }
+
+}
+.road2{
+    background-image: url(./road.jpg);
+    width: 20000px;
+    height: 155px;
+    margin-top: -180px;
+    position: absolute;
+    animation:  linear infinite;
+    
+}
+.car{
+    width: 720px;
+    /* height: 310px; */
+    margin: 0px;
+    padding: 0px;
+    margin-top: -400px;
+    z-index: 1;
+    position: absolute;
+
+}
+.car1{
+    margin-left: 700px;
+    margin-top: -300px;
+}
+.wheel{
+    margin-top: -295px;
+    margin-left: 800px;
+    z-index: 1;
+    position: absolute;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: wheel;
+    animation-timing-function: linear;
+    
+}
+@keyframes wheel {
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.wheel1{
+    margin-top: -290px;
+    margin-left: 1136px;
+    z-index: 1;
+    position: absolute;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: wheel;
+    animation-timing-function: linear;
+}
+.wheel2{
+    margin-top: -312px;
+    margin-left: 35px;
+    z-index: 1;
+    position: absolute ;
+    /* position: relative; */
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: wheel2;
+    animation-timing-function: linear;
+}
+@keyframes wheel2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.wheel3{
+    margin-top: -310px;
+    margin-left: 270px;
+    z-index: 1;
+    position: absolute ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: wheel2;
+    animation-timing-function: linear;
+}
+.car2{
+    margin-top: -400px;
+    margin-left: 300px;
+    z-index: 1;
+    position: absolute;
+
+}
+.wheel4{
+    margin-top: -167px;
+    margin-left: 365px;
+    z-index: 1;
+    position: absolute ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: wheel4;
+    animation-timing-function: linear;
+}
+@keyframes wheel4{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.wheel5{
+    margin-top: -167px;
+    margin-left: 775px;
+    z-index: 1;
+    position: absolute ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: wheel4;
+    animation-timing-function: linear;
+}
+.flag{
+    margin-top: -550px;
+    margin-left: 455px;
+    z-index: 1;
+    position: absolute;
+}
+.sun{
+    margin-top: -590px;
+    margin-left: 1000px;
+    position: absolute;
+    z-index: 1;
+    animation-duration: 50s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: sun;
+}
+@keyframes sun{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-1050px);
+    }
+}
+a{
+    color: seashell;
+    margin-top: -50px;
+    z-index: 1;
+    position: absolute;
+    background-color: red;
+
+}

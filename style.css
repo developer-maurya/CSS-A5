@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(101, 226, 18);
+}
+#chit{
+    text-align: center;
+}
+#chit1{
+    justify-content: center;
+    margin-left: 400px;
+}
+.r1{
+    display: flex;
+    
+}
+.chit{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: ravi;
+    margin: 20px;
+}
+@keyframes ravi{
+    0%{
+        transform:skewX(20deg);
+        /* transform: rotate(0deg); */
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+        /* transform: rotate(360deg); */
+    }
+}
+
+.chit1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 20px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: ravi2;
+}
+@keyframes ravi2{
+    0%{
+        transform: skewY(20deg);
+    }
+    50%{
+        transform: skewY(-20deg);
+    }
+    100%{
+        transform: skewY(20deg);
+    }
+
+}
+.chit2{
+width: 100px;
+height: 100px;
+background-color: blueviolet;
+margin: 20px;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-name: ravi3;
+}
+@keyframes ravi3{
+    /* 0%{
+        transform: rotate(0deg);
+    } */
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+.chit3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: ravi4;
+    margin: 20px;
+}
+@keyframes ravi4{
+    0%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(.5);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+.chit4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: ravi5;
+    margin: 20px;
+}
+@keyframes ravi5{
+    0%{
+        transform: scaleX(1);
+
+    }
+    50%{
+        transform: scaleX(.5);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+.chit5{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: ravi6;
+    margin: 20px;
+}
+@keyframes ravi6{
+    50%{
+        transform: rotate(90deg);
+    }
+}
+a{
+    /* color: rgb(14, 14, 2); */
+    font-size: xx-large;
+    margin-left: 450px;
+    text-decoration: none;
+}
